@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate Confirmation</title>
+  <link rel="stylesheet" href="/css/success.css">
+</head>
+<body>
+
+  <% if(name) {%>
+
+  <div class="card">
+    <div class="success-icon">✅</div>
+    <h1>Certificate Sent!</h1>
+    <p>Dear <strong><%= name %></strong>,</p>
+    <p>Your Internship Completion Certificate has been successfully sent to your email <%= email %></p>
+    <p class="footer">Please check your inbox or spam folder.</p>
+  </div>
+
+  <% } %>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "automated-certificate-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10",
+    "pdf-lib": "^1.17.1"
+  }
+}
